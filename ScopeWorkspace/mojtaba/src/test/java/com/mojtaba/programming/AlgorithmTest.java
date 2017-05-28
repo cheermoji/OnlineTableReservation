@@ -3,7 +3,6 @@ package com.mojtaba.programming;
 import org.junit.Ignore;
 import org.junit.Test;
 
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -154,12 +153,12 @@ public class AlgorithmTest {
 	 */
 	private List<TalkEntity> getSession(List<TalkEntity> input, int session) {
 		List<TalkEntity> talkEntitiesInSession = Algorithm.timeSlice(input, session);
-		int totalLengthMorning1 = 0;
+		int totalSessionLength = 0;
 		for (TalkEntity talk : talkEntitiesInSession) {
-			totalLengthMorning1 += talk.getLength();
+			totalSessionLength += talk.getLength();
 			input.remove(talk);
 		}
-		assertTrue(session >= totalLengthMorning1);
+		assertTrue(session >= totalSessionLength);
 		return talkEntitiesInSession;
 	}
 }

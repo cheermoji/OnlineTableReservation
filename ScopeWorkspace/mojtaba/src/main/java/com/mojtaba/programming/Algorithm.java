@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 
+ * Class implementing the algorithm
  * @author Moji
  *
  */

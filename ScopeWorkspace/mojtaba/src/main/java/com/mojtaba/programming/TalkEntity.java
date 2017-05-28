@@ -1,7 +1,7 @@
 package com.mojtaba.programming;
 
 /**
- * 
+ * Talk time entity
  * @author Moji
  *
  */
