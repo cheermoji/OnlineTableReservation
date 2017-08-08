@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bookingservice/bookingservice.iml" filepath="$PROJECT_DIR$/bookingservice/bookingservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaservice/eurekaservice.iml" filepath="$PROJECT_DIR$/eurekaservice/eurekaservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onlinetablereservation.iml" filepath="$PROJECT_DIR$/onlinetablereservation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restaurantservice/restaurantservice.iml" filepath="$PROJECT_DIR$/restaurantservice/restaurantservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
+    </modules>
+  </component>
+</project>
